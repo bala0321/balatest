@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include balatest *.css
+recursive-include balatest *.csv
+recursive-include balatest *.html
+recursive-include balatest *.ico
+recursive-include balatest *.js
+recursive-include balatest *.json
+recursive-include balatest *.md
+recursive-include balatest *.png
+recursive-include balatest *.py
+recursive-include balatest *.svg
+recursive-include balatest *.txt
+recursive-exclude balatest *.pyc
